@@ -26,8 +26,7 @@ Run `composer update` afterwards.
 
 Register these bundles in your AppKernel:
 
-.. code-block:: php
-
+```php
   <?php
   // app/AppKernel.php
   public function registerBundles()
@@ -38,5 +37,6 @@ Register these bundles in your AppKernel:
           // ...
       );
   }
+```
 
 todo
